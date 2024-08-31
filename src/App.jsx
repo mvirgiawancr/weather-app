@@ -56,7 +56,12 @@ const App = () => {
       <div className="bg-app" />
       <div className="container">
         <Input onSearch={handleSearch} />
-        {datas ? <Card datas={datas} /> : <p>Loading...</p>}
+        {datas ? <Card datas={datas} /> : <p             style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+            }}>Loading...</p>}
         <Time datas={datas} />
       </div>
       <div className="footer">
