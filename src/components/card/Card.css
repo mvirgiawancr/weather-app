@@ -1,0 +1,25 @@
+.card-container {
+    position: absolute;
+    top: 30%;
+    color: #343a40;
+
+    h1 {
+        text-align: center;
+    }
+
+    .img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            letter-spacing: 5px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    }
+}
